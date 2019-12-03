@@ -1,0 +1,6 @@
+version: '3'
+services:
+  static-website:
+    build: .
+    ports:
+      - 5080:80
